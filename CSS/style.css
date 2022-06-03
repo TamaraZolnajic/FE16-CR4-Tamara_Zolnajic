@@ -1,0 +1,52 @@
+#hero{
+    text-align: center;
+    background-image: url(https://images.unsplash.com/photo-1506485338023-6ce5f36692df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-position-y: 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.brand{
+    font-size: 2rem;
+}
+#opacityheading{
+    display: flex;
+    justify-content: center;
+    margin: 12% 40%;
+    padding: 3%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+.priority{
+    display: flex;
+    gap: 75%;
+    margin-bottom: 2%;
+}
+#sorting{
+    padding-top: 1%;
+}
+  
+.row {
+    margin: 0;
+}
+  
+.icons{
+    padding-top: 2%;
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+}
+  
+.fa-brands{
+    padding: 0.8rem;
+    border: 1px solid white;
+    border-radius: 5%;
+    color: white;
+}
+  
+.card-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 70%;
+}

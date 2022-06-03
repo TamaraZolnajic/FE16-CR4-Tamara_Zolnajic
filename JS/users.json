@@ -1,0 +1,74 @@
+let tasks = `[
+    {
+        "id": "1",
+        "title": "Grocery shopping",
+        "image": "../pics/groceries.jpg",
+        "description": "Buy lots of fruits and veggies.",
+        "deadline": "24.06.2022",
+        "priority": 0
+    },
+    {
+        "id": "2",
+        "title": "Clean apartment",
+        "image": "../pics/cleaning.jpg",
+        "description": "Do all surface dusting and wash windows.",
+        "deadline": "24.06.2022",
+        "priority": 0
+    },
+    {
+        "id": "3",
+        "title": "Order cat food",
+        "image": "../pics/animalfood.jpg",
+        "description": "Check for better sub deals on Amazon.",
+        "deadline": "24.06.2022",
+        "priority": 0
+    },
+    {
+        "id": "4",
+        "title": "Read pre-work for next class",
+        "image": "../pics/prework.jpg",
+        "description": "Mark what you dont understand for questions.",
+        "deadline": "24.06.2022",
+        "priority": 0
+    },
+    {
+        "id": "5",
+        "title": "Buy Birthday gift",
+        "image": "../pics/gift.jpg",
+        "description": "Make sure its something special but also useful.",
+        "deadline": "24.06.2022",
+        "priority": 0
+    },
+    {
+        "id": "6",
+        "title": "Play games",
+        "image": "../pics/gaming.jpg",
+        "description": "Get Immortal3 rank on Valorant.",
+        "deadline": "24.06.2022",
+        "priority": 0
+    },
+    {
+        "id": "7",
+        "title": "Go shopping",
+        "image": "../pics/shopping.jpg",
+        "description": "Zara has awesome pants this season.",
+        "deadline": "24.06.2022",
+        "priority": 0
+    },
+    {
+        "id": "8",
+        "title": "Go to the gym",
+        "image": "../pics.gym.jpg",
+        "description": "This week 2 x legday and 3 x arms&back.",
+        "deadline": "24.06.2022",
+        "priority": 0
+    },
+    {
+        "id": "9",
+        "title": "Pay the bills",
+        "image": "../pics/bills.jpg",
+        "description": "Dont forget to call EON Energy.",
+        "deadline": "24.06.2022",
+        "priority": 0
+    }
+]`
