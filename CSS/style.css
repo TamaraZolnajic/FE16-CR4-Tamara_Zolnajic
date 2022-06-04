@@ -1,4 +1,4 @@
-#hero{
+#hero {
     text-align: center;
     background-image: url(https://images.unsplash.com/photo-1506485338023-6ce5f36692df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
     background-position-y: 40%;
@@ -6,57 +6,65 @@
     background-size: cover;
 }
 
-.brand{
+.brand {
     font-size: 2rem;
 }
-#notifications{
+
+#notifications {
     text-decoration: none;
     color: white;
     padding: 0 3px;
 }
-#notifications-two{
+
+#notifications-two {
     text-decoration: none;
     color: white;
     background-color: red;
     padding: 0 5px;
 }
-#opacityheading{
+
+#opacityheading {
     display: flex;
     justify-content: center;
     margin: 12% 40%;
     padding: 3%;
     color: white;
-    background-color: rgba(0, 0, 0, 0.5); 
+    background-color: rgba(0, 0, 0, 0.5);
 }
-.priority{
+
+.priority {
     display: flex;
-    margin:2% 7%;
-    justify-content:space-between ;
+    margin: 2% 7%;
+    justify-content: space-between;
 }
-#sort-on{
+
+#sort-on {
     padding-top: 2%;
 }
-.card{
-    margin:2% 12%;
+
+.card {
+    margin: 2% 12%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
 }
-.card-img-top{
+
+.card-img-top {
     height: 10rem;
 }
-.card-btn{
+
+.card-btn {
     gap: 1%;
 }
-.icons{
+
+.icons {
     padding-top: 2%;
     display: flex;
     justify-content: center;
     gap: 1%;
 }
-  
-.fa-brands{
+
+.fa-brands {
     padding: 0.8rem;
     border: 1px solid white;
     border-radius: 5%;
     color: white;
 }
-  

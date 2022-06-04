@@ -21,23 +21,23 @@ function printCards(warningMeasure) {
     <div>
         <i class="fa-solid fa-bookmark"></i>&nbsp;
         <i class="fa-solid fa-ellipsis-vertical"></i> </div></div>
-</div>
-  <img src="${tasks.image}" class="card-img-top" alt="...">
-  <div class="card-body" >
+    </div>
+    <img src="${tasks.image}" class="card-img-top" alt="...">
+    <div class="card-body" >
     <h5 class="card-title text-center">${tasks.title}</h5>
     <p class="card-text text-center">${tasks.description}</p>
-  </div>
-  <hr>
-  <div class="d-flex justify-content-start">
-  <i class="fa-solid fa-triangle-exclamation press-on p-1 mt-0"></i> Priority Level:<p class="mx-1 px-2 ${color} rounded new"> ${tasks.priority}</p></div>
-  <p><i class="fa-solid fa-calendar-days"></i> Deadline: ${tasks.deadline}</p>
+    </div>
+    <hr>
+    <div class="d-flex justify-content-start">
+    <i class="fa-solid fa-triangle-exclamation press-on p-1 mt-0"></i> Priority Level:<p class="mx-1 px-2 ${color} rounded new"> ${tasks.priority}</p></div>
+    <p><i class="fa-solid fa-calendar-days"></i> Deadline: ${tasks.deadline}</p>
   
-  <hr>
-  <div class="card-btn d-flex justify-content-end">
-  <button type="button" class="btn btn-danger"><i class="fa-solid fa-trash-can justify-content-end"></i> Delete</button>
-  <button type="button" class="btn btn-success"><i class="fa-solid fa-circle-check justify-content-end"></i> Done</button></div>
-</div>
-</div>
+    <hr>
+    <div class="card-btn d-flex justify-content-end">
+    <button type="button" class="btn btn-danger"><i class="fa-solid fa-trash-can justify-content-end"></i> Delete</button>
+    <button type="button" class="btn btn-success"><i class="fa-solid fa-circle-check justify-content-end"></i> Done</button></div>
+    </div>
+    </div>
     `;
     }
     priorityIncreaseButton();
@@ -58,11 +58,11 @@ printCards(tasksList);
 priorityIncreaseButton();
 
 function prioritySort() {
-    tasksList.sort(function(min, max) {
+    tasksList.sort(function (min, max) {
         return max.priority - min.priority;
     })
 }
-document.querySelector(".sorting").addEventListener("click", function() {
+document.querySelector(".sorting").addEventListener("click", function () {
     prioritySort();
     printCards(tasksList);
 });
