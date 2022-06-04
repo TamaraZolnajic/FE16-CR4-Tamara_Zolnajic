@@ -11,7 +11,7 @@ let tasks = `[
         "id": "2",
         "title": "Clean apartment",
         "image": "../pics/cleaning.jpg",
-        "description": "Do all surface dusting and wash windows.",
+        "description": "Do general surface dusting.",
         "deadline": "24.06.2022",
         "priority": 0
     },
@@ -19,15 +19,15 @@ let tasks = `[
         "id": "3",
         "title": "Order cat food",
         "image": "../pics/animalfood.jpg",
-        "description": "Check for better sub deals on Amazon.",
+        "description": "Check for better deals on Amazon.",
         "deadline": "24.06.2022",
         "priority": 0
     },
     {
         "id": "4",
-        "title": "Read pre-work for next class",
+        "title": "Read pre-work for class",
         "image": "../pics/prework.jpg",
-        "description": "Mark what you dont understand for questions.",
+        "description": "Mark what you dont understand.",
         "deadline": "24.06.2022",
         "priority": 0
     },
@@ -35,7 +35,7 @@ let tasks = `[
         "id": "5",
         "title": "Buy Birthday gift",
         "image": "../pics/gift.jpg",
-        "description": "Make sure its something special but also useful.",
+        "description": "Make sure its something useful.",
         "deadline": "24.06.2022",
         "priority": 0
     },
@@ -51,15 +51,15 @@ let tasks = `[
         "id": "7",
         "title": "Go shopping",
         "image": "../pics/shopping.jpg",
-        "description": "Zara has awesome pants this season.",
+        "description": "Call friend to come with.",
         "deadline": "24.06.2022",
         "priority": 0
     },
     {
         "id": "8",
         "title": "Go to the gym",
-        "image": "../pics.gym.jpg",
-        "description": "This week 2 x legday and 3 x arms&back.",
+        "image": "../pics/gym.jpg",
+        "description": "This week 3 rest days",
         "deadline": "24.06.2022",
         "priority": 0
     },

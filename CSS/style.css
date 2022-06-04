@@ -19,17 +19,22 @@
 }
 .priority{
     display: flex;
-    gap: 75%;
-    margin-bottom: 2%;
+    margin:2% 7%;
+    justify-content:space-between ;
 }
-#sorting{
-    padding-top: 1%;
+#sort-on{
+    padding-top: 2%;
 }
-  
-.row {
-    margin: 0;
+.card{
+    margin:2% 12%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
 }
-  
+.card-img-top{
+    height: 10rem;
+}
+.card-btn{
+    gap: 1%;
+}
 .icons{
     padding-top: 2%;
     display: flex;
@@ -44,9 +49,3 @@
     color: white;
 }
   
-.card-header {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    gap: 70%;
-}
