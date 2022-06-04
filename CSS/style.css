@@ -9,6 +9,17 @@
 .brand{
     font-size: 2rem;
 }
+#notifications{
+    text-decoration: none;
+    color: white;
+    padding: 0 3px;
+}
+#notifications-two{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 0 5px;
+}
 #opacityheading{
     display: flex;
     justify-content: center;

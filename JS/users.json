@@ -4,7 +4,7 @@ let tasks = `[
         "title": "Grocery shopping",
         "image": "../pics/groceries.jpg",
         "description": "Buy lots of fruits and veggies.",
-        "deadline": "24.06.2022",
+        "deadline": "07.06.2022",
         "priority": 0
     },
     {
@@ -12,7 +12,7 @@ let tasks = `[
         "title": "Clean apartment",
         "image": "../pics/cleaning.jpg",
         "description": "Do general surface dusting.",
-        "deadline": "24.06.2022",
+        "deadline": "09.06.2022",
         "priority": 0
     },
     {
@@ -20,7 +20,7 @@ let tasks = `[
         "title": "Order cat food",
         "image": "../pics/animalfood.jpg",
         "description": "Check for better deals on Amazon.",
-        "deadline": "24.06.2022",
+        "deadline": "06.06.2022",
         "priority": 0
     },
     {
@@ -28,7 +28,7 @@ let tasks = `[
         "title": "Read pre-work for class",
         "image": "../pics/prework.jpg",
         "description": "Mark what you dont understand.",
-        "deadline": "24.06.2022",
+        "deadline": "06.06.2022",
         "priority": 0
     },
     {
@@ -36,7 +36,7 @@ let tasks = `[
         "title": "Buy Birthday gift",
         "image": "../pics/gift.jpg",
         "description": "Make sure its something useful.",
-        "deadline": "24.06.2022",
+        "deadline": "10.06.2022",
         "priority": 0
     },
     {
@@ -44,7 +44,7 @@ let tasks = `[
         "title": "Play games",
         "image": "../pics/gaming.jpg",
         "description": "Get Immortal3 rank on Valorant.",
-        "deadline": "24.06.2022",
+        "deadline": "No deadline",
         "priority": 0
     },
     {
@@ -52,7 +52,7 @@ let tasks = `[
         "title": "Go shopping",
         "image": "../pics/shopping.jpg",
         "description": "Call friend to come with.",
-        "deadline": "24.06.2022",
+        "deadline": "11.06.2022",
         "priority": 0
     },
     {
@@ -60,7 +60,7 @@ let tasks = `[
         "title": "Go to the gym",
         "image": "../pics/gym.jpg",
         "description": "This week 3 rest days",
-        "deadline": "24.06.2022",
+        "deadline": "No deadline",
         "priority": 0
     },
     {
@@ -68,7 +68,7 @@ let tasks = `[
         "title": "Pay the bills",
         "image": "../pics/bills.jpg",
         "description": "Dont forget to call EON Energy.",
-        "deadline": "24.06.2022",
+        "deadline": "10.06.2022",
         "priority": 0
     }
 ]`
